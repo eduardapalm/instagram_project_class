@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+}
+
+#img {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.90;
+    background-size: cover;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.instagram_wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+    position: absolute;
+}
+
+.instagram_phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram_phone img {
+    height: 40rem;
+    margin-right: 150px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.instagram_inout {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    margin: 50px;
+    margin-left: 200px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.945);
+    width: 100%;
+    padding: 2rem 0;
+    border-style: solid;
+    border-color: rgba(131, 125, 143, 0.801);
+    border-width: 0px 3px 3px 0px;
+    border-radius: 8px;
+}
+
+.group:nth-child(1) {
+    min-height: 21rem;
+    height: 10%;
+    margin-top: 30%;
+    margin-bottom: 5px;
+}
+
+.instagram_logo {
+    height: 3rem;
+}
+
+.profile_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.profile_photo img {
+    height: 8rem;
+}
+
+.instagram_login {
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram_logout {
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.notyou {
+    color: rgb(218, 214, 214);
+}
+
+.link_blue {
+    color: #0098fd;
+}
+
+.get_app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app {
+    margin-top: 20px;
+    color: #ffff;
+}
+
+.app_download {
+    height: 3rem;
+    width: 10rem;
+    background-size: contain;    
+    flex-direction: column;
+}
+
+.app_download:nth-child(1){
+    background-image: url("../img/apple-button.png");
+    margin-right: 10px;
+}
+
+.app_download:nth-child(2){
+    background-image: url("../img/googleplay-button.png");
+}
+
+/*media queries*/
+
+
+@media (max-width: 1024px) {
+    .instagram_wrapper {
+        width: 90%;
+    }
+
+@media (max-width: 650px) {
+    body {
+        opacity: inherit;
+    }
+    .instagram_wrapper {
+        width: 90%;
+    }
+    .instagram_phone {
+        display: none;
+    }
+    .instagram_inout {
+        width: 100%;
+    }
+    .group {
+        border: 1px solid transparent;
+    }
+}
