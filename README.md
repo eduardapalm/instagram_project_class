@@ -6,9 +6,9 @@
 
 
 
-## As mudanças feitas por mim no projeto foram:
+## As principais mudanças feitas por mim nesse projeto foram:
 
 - Adição de sombras nos boxes;
 - Background personalizado;
-- Criação de uma página no modo escuro (Darkmode);
+- Criação de uma página no modo noturno (Darkmode);
 - Adição de imagens.
