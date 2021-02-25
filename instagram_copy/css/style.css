@@ -53,12 +53,17 @@ body {
     flex-direction: column;
     background-color: white;
     width: 100%;
-    padding: 1.3rem 0;
-    border: 1px solid lightgray;
+    padding: 2rem 0;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px 3px 3px 1px;
+    border-radius: 2%;
 }
 
 .group:nth-child(1) {
-    min-height: 19rem;
+    min-height: 20rem;
+    height: 10%;
+    margin-top: 30%;
 }
 
 .instagram_logo {
@@ -118,6 +123,7 @@ body {
     height: 3rem;
     width: 10rem;
     background-size: cover;
+    flex-direction: column;
 }
 
 .app_download:nth-child(1){
