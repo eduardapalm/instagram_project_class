@@ -44,7 +44,7 @@ body {
 
 .instagram_phone img {
     height: 40rem;
-    margin-right: 150px;
+    margin-right: 50px;
     margin-top: 0;
     margin-bottom: 100px;
 }
@@ -177,6 +177,7 @@ body {
     }
     .instagram_inout {
         width: 100%;
+        margin-left: 50px;
     }
     .group {
         border: 1px solid transparent;
