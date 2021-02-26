@@ -12,3 +12,6 @@
 - Background personalizado;
 - Criação de uma página no modo noturno (Darkmode);
 - Adição de imagens.
+
+[Imgur](https://i.imgur.com/1pw3TPR.png)
+[Imgur](https://i.imgur.com/ocj63zy.png)
