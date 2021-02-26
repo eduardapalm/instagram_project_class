@@ -1,4 +1,4 @@
-
+# Recriando uma das páginas de login do Instagram. :camera_flash:
 
 ## :pencil: Descrição do Projeto: 
 
@@ -13,4 +13,7 @@
 - Criação de uma página no modo noturno (Darkmode);
 - Adição de imagens.
 
-https://imgur.com/a/Z6DRSnW
+## Imagens do Projeto:
+
+![](https://i.imgur.com/ULDZA10.png)
+![](https://i.imgur.com/xc3bMQ5.png)
